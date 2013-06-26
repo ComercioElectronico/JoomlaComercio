@@ -1,0 +1,669 @@
+/*******************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Email: info@asdesigning.com
+/*
+/**************************************************************************************/
+
+/**************************************************************************************/
+/**************************************************************************************/
+/*   Elements
+/**************************************************************************************/
+/**************************************************************************************/
+
+body
+{
+	background-color: #FFFFFF;
+	background-image: url(../images/bg.header.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	color: #3F3C38;
+	font-size: 12px;
+}
+
+a
+{
+	color: #3F3C38;
+}
+
+a:hover
+{
+	color: #FF2A00;
+}
+
+input
+{
+	color: #3F3C38;
+	border-color: #DEDEDE;
+	background-color: #FFFFFF;
+}
+
+option
+{
+	background-color: #FFFFFF;
+}
+
+select
+{
+	color: #3F3C38;
+	border-color: #DEDEDE;
+	background-color: #FFFFFF;
+}
+
+textarea,
+.CodeMirror-wrapping
+{
+	color: #3F3C38;
+	border-color: #DEDEDE;
+	background-color: #FFFFFF;
+}
+
+/**************************************************************************************/
+/*   Header
+/**************************************************************************************/
+/**************************************************************************************/
+
+#header
+{
+}
+
+#header .inputbox
+{
+	color: #FFFFFF;
+	background-image: url(../images/bg.search.png);
+	background-position: top;
+}
+
+#header #fading img
+{
+}
+
+#header #companyname
+{
+	background-image: url(../images/bg.companyname.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#header #companyname,
+#header #companyname a
+{
+	color: #FFFFFF;
+}
+
+#header #companyname a:hover
+{
+	color: #FF2A00;
+}
+
+#header .slogan
+{
+	color: #FFFFFF;
+}
+
+#header #slidenews
+{
+	background-color: #F6F6F6;
+	border-color: #DEDEDE;	
+}
+
+#header #slideshow
+{
+}
+
+#header #slideshow #fading 
+{
+	border: 1px;
+	border-color: #FFFFFF;
+	border-style: solid;
+}
+
+#header #breadcrumb
+{
+	border-color: #DEDEDE;
+}
+
+#header #breadcrumb a
+{
+	color: #3F3C38;
+}
+
+#header #breadcrumb a:hover
+{
+	color: #FF2A00;
+}
+
+
+/**************************************************************************************/
+/*   Top Menu                                                                         */
+
+#header #topmenu
+{
+}
+
+#header #topmenu ul.menu li
+{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;	
+}
+
+#header #topmenu ul.menu li a
+{
+	color: #3F3C38;
+}
+
+#header #topmenu ul.menu li.current a,
+#header #topmenu ul.menu li.active a,
+#header #topmenu ul.menu li.current a:hover,
+#header #topmenu ul.menu li.active a:hover,
+#header #topmenu ul.menu li a:hover
+{
+	background-color: #FF490D;
+	color: #FFFFFF;	
+}
+
+#header #submenu #homelink a
+{
+	background-image: url(../images/btn.home.png);
+	background-repeat: no-repeat;
+	background-position: bottom;	
+}
+
+#header #submenu #homelink a:hover
+{
+	background-position: top;	
+}
+
+#header #submenu #contactlink a
+{
+	background-image: url(../images/btn.contact.png);
+	background-repeat: no-repeat;
+	background-position: bottom;	
+}
+
+#header #submenu #contactlink a:hover
+{
+	background-position: top;	
+}
+
+#header #submenu #searchlink a
+{
+	background-image: url(../images/btn.search.png);	
+	background-repeat: no-repeat;
+	background-position: bottom;			
+}
+
+#header #submenu #searchlink a:hover
+{
+	background-position: top;	
+}
+
+#header #submenu .separator
+{
+}
+
+/**************************************************************************************/
+/*   Content
+/**************************************************************************************/
+/**************************************************************************************/
+
+#content
+{
+	background-color: #FFFFFF;
+}
+
+/**************************************************************************************/
+/*   Column Left & Right
+/**************************************************************************************/
+/**************************************************************************************/
+
+#colleft,
+#colright
+{
+}
+
+#colleft h1, 
+#colleft h2, 
+#colleft h3,
+#colright h1, 
+#colright h2, 
+#colright h3
+{
+	color: #FFFFFF;
+	background-image: url(../images/bg.h.side.png);	
+	background-repeat: repeat-x;	
+}
+
+#colleft h1 a, 
+#colleft h2 a, 
+#colleft h3 a,
+#colright h1 a, 
+#colright h2 a, 
+#colright h3 a
+{
+	color: #FFFFFF;
+}
+
+#colleft h4, 
+#colright h4 
+{
+	color: #3F3C38;
+}
+
+#colleft ul,
+#colright ul  
+{
+	background-image: url(../images/sep.ul.png);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+	
+#colleft li,
+#colright li  
+{
+	list-style-image: url(../images/listimg.main.png);
+	background-image: url(../images/bg.menu.li_1.png);	
+}
+
+#colleft ul ul li,
+#colright ul ul li  
+{
+	list-style-image: url(../images/listimg.main.png);
+	background-image: url(../images/bg.menu.li_2.png);	
+}
+
+#colleft a,
+#colright a
+{
+	color: #3F3C38;
+	border-color: #DEDEDE;
+}
+
+
+#colleft a:hover,
+#colright a:hover
+{
+	color: #FF2A00;
+}
+
+#colleft img,
+#colright img
+{
+	border: 1px;
+	border-style: solid;
+	border-color: #3A3A3A;	
+}
+
+#colleft button, 
+#colleft .button,
+#colright button, 
+#colright .button
+{
+	background-color: #FF2A00;
+	color: #FFFFFF;
+}
+
+#colleft button:hover, 
+#colleft .button:hover,
+#colright button:hover, 
+#colright .button:hover
+{
+	background-color: #000000;	
+}
+
+#colleft input,
+#colright input
+{
+	font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;	
+}
+
+#colleft .search input,
+#colright .search input
+{
+}
+
+#colleft .inputbox,
+#colright .inputbox
+{
+}
+
+#colleft .readmore,
+#colright .readmore
+{
+	background-image: url(../images/bg.readmore.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+#colleft .readmore a,
+#colright .readmore a
+{
+}
+
+#colleft .readmore a:hover,
+#colright .readmore a:hover
+{
+	color: #FF2A00;
+}
+
+
+
+/**************************************************************************************/
+/*   Column Main 
+/**************************************************************************************/
+/**************************************************************************************/
+
+#colmain
+{
+}
+
+#colmain #component
+{
+	background-color: #F6F6F6;
+    border-color: #DEDEDE;	
+}
+
+#colmain .blog-featured,
+#colmain .item-page,
+#colmain .contact,
+#colmain .registration,
+#colmain .reset,
+#colmain .remind,
+#colmain .profile,
+#colmain .edit,
+#colmain .search-results,
+#colmain .categories-list
+{
+	background-color: transparent;
+}
+
+#colmain h1, 
+#colmain h2, 
+#colmain h3
+{
+	color: #3F3C38;
+}
+
+#colmain h1 a, 
+#colmain h2 a, 
+#colmain h3 a
+{
+	color: #3F3C38;
+}
+
+#colmain h1 a:hover, 
+#colmain h2 a:hover, 
+#colmain h3 a:hover
+{
+	color: #FF2A00;
+}
+
+#colmain .item h1, 
+#colmain .item h2, 
+#colmain .item h3
+{
+}
+
+#colmain .contact h1,
+#colmain .contact h2,
+#colmain .contact h3
+{
+}
+
+#colmain .contact h1 a, 
+#colmain .contact h2 a, 
+#colmain .contact h3 a
+{
+}
+
+#colmain .item h1 a, 
+#colmain .item h2 a, 
+#colmain .item h3 a
+{
+}
+	
+#colmain h4 
+{
+	color: #3F3C38;
+}
+
+#colmain a
+{
+	color: #3F3C38;
+}
+
+#colmain a:hover
+{
+	color: #FF2A00;
+}
+
+#colmain li  
+{
+	list-style-image: url(../images/listimg.main.png);
+}
+
+#colmain input
+{
+	background-color: #FFFFFF;
+}
+
+#colmain input[type="checkbox"],
+#colmain input[type="radio"]
+{
+	background-color: transparent !important;
+}
+
+#colmain p
+{
+	color: #3F3C38;
+}
+
+#colmain .blog-featured .readmore,
+#colmain .blog .readmore
+{
+	background-image: url(../images/bg.readmore.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+#colmain .readmore:hover
+{
+	border-color: #FF2A00;
+}
+
+#colmain .readmore a
+{
+	color: #3F3C38;
+}
+
+#colmain .readmore a:hover
+{
+	color: #FF2A00;
+}
+
+#colmain .readmore button,
+#colmain .readmore .button
+{
+	color: #3F3C38;
+}
+
+#colmain .readmore button:hover, 
+#colmain .readmore .button:hover
+{
+	color: #FF2A00;
+}
+
+#colmain button, 
+#colmain .button
+{
+	background-color: #FF2A00;
+	color: #FFFFFF;
+}
+
+#colmain button:hover, 
+#colmain .button:hover
+{
+	background-color: #000000;
+}
+	
+#colmain #adsense
+{
+	border-top-color: #DEDEDE;
+	border-bottom-color: #DEDEDE;	
+}
+
+#colmain .inputbox,
+#colmain #jform_name,
+#colmain #jform_username,
+#colmain #jform_password1,
+#colmain #jform_password2,
+#colmain #jform_email,
+#colmain #jform_email1,
+#colmain #jform_email2,
+#colmain #jform_title,
+#colmain #jform_url,
+#colmain #jform_catid,
+#colmain #jform_state,
+#colmain #jform_params_editor,
+#colmain #jform_params_timezone,
+#colmain #jform_params_language,
+#colmain #jform_params_admin_style,
+#colmain #jform_params_admin_language,
+#colmain #jform_params_helpsite,
+#colmain #username,
+#colmain #password
+{
+	border-color: #DEDEDE;
+	background-color: #FFFFFF;
+}
+
+#colmain #editor-xtd-buttons .button2-left .readmore a
+{
+	color: #3F3C38;
+}
+
+#colmain #member-registration fieldset,
+#colmain #member-profile fieldset,
+#colmain #adminForm fieldset,
+#colmain .registration fieldset,
+#colmain .profile fieldset
+{
+}
+
+#colmain #users-profile-core legend,
+#colmain #users-profile-custom legend,
+#colmain #adminForm legend,
+#colmain .profile-edit legend,
+#colmain .registration legend
+{
+}
+
+#colmain span.spacer > span.text label 
+{
+	color: #3F3C38;
+}
+
+#colmain .login fieldset
+{
+}
+
+
+#colmain #searchForm .phrases,
+#colmain #searchForm .only
+{
+	border-color: #DEDEDE;
+}
+
+#colmain #jform_spacer-lbl,
+#colmain label.invalid,
+#colmain .red,
+#colmain .star,
+#colmain .asterisk
+{
+	color: #3F3C38;
+}
+
+
+/**************************************************************************************/
+/*   Footer
+/**************************************************************************************/
+/**************************************************************************************/
+
+#footer
+{
+	background-image: url(../images/bg.main.png);
+	color: #FFFFFF;	
+}
+
+#footer .bg
+{
+	background-image: url(../images/bg.footer.png);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+#footer h1, 
+#footer h2, 
+#footer h3,
+#footer p,
+#footer a,
+#footer #footermenu li a,
+#footer #footertrademark
+{
+	color: #FFFFFF;
+}
+
+#footer a:hover,
+#footer #footermenu li a:hover
+{
+	color: #FF2A00;
+}
+
+#footer .moduletable,
+#footer .moduletable_text, 
+#footer .moduletable_menu,
+#footer .contentpaneopen
+{
+}
+
+#footer #companyname_footer
+{
+}
+
+#footer .companyname,
+#footer .companyname a
+{
+	color: #FFFFFF;
+}
+
+#footer .slogan
+{
+	color: #FFFFFF;
+}
+
+#footer #getintouch
+{	
+}
+
+#footer .inputbox
+{
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/*   General Element IDs and classes
+/**************************************************************************************/
+/**************************************************************************************/
+
+
+.moduletable_menu li a:hover
+{
+	color: #FF2A00;
+}
+
+.hword
+{
+	color: #FF2A00;
+}

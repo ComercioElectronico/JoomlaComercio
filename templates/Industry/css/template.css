@@ -1,0 +1,1141 @@
+/**************************************************************************************/
+/*
+/*	  Designed by 'AS Designing'
+/*	  http://www.asdesigning.com
+/*
+/*
+/**************************************************************************************/
+
+/**************************************************************************************/
+/**************************************************************************************/
+/*   Elements
+/**************************************************************************************/
+/**************************************************************************************/
+
+* {padding:0; margin:0; border: 0px;}
+
+html 
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;	
+	font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+table
+{
+	width: 100%;
+}
+
+img
+{
+    border: 0;
+    vertical-align: top;     
+}
+
+p
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;	
+}
+
+p img
+{
+	margin: 0px 15px 15px 0px;
+	padding: 0px 0px 0px 0px;		
+}
+
+a
+{
+	text-decoration: none;
+	outline-style: none;
+}
+
+a:hover
+{
+	cursor: pointer;
+	outline-style: none;	
+}
+
+ul
+{
+	clear: both;
+	list-style: inside;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;		
+}
+
+li
+{
+}
+
+ul ul
+{
+	margin: 0px 0px 0px 25px;
+}
+
+form
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+fieldset 
+{
+	margin: 5px 0px 5px 0px;
+	padding: 2px 0px 2px 0px;
+}
+
+input
+{
+	width: 235px;
+	margin: 0px 0px 0px 0px;
+	padding: 3px 3px 3px 3px;
+	font-size: 11px;
+	border: 1px;
+	border-style: solid;
+	vertical-align: bottom;
+	background-image: url(../images/bg.input.png);
+	background-repeat: repeat-x;		
+}
+
+select
+{
+	width: 226px;
+	margin: 2px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 11px;
+	border: 1px;
+	border-style: solid;
+	vertical-align: bottom;
+	background-image: url(../images/bg.input.png);
+	background-repeat: repeat-x;	
+}
+
+textarea
+{
+	width: 450px;
+	margin: 2px 2px 10px 0px;
+	padding: 2px 2px 2px 2px;
+	font-size: 11px;
+	border: 1px;
+	border-style: solid;
+	background-color: transparent;
+	vertical-align: bottom;
+	background-image: url(../images/bg.input.png);
+	background-repeat: repeat-x;		
+}
+
+label
+{
+	line-height: 18px;
+    font-weight: normal;
+}
+
+
+/**************************************************************************************/
+/*   Header
+/**************************************************************************************/
+/**************************************************************************************/
+
+#header
+{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background-repeat: repeat-x;
+}
+
+#headercontent
+{
+	width: 1002px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;	
+}
+
+#header li
+{
+	list-style: inside;
+}
+
+#header #slidenews
+{
+	clear: both;
+	width: 972px;
+	height: 35px;	
+	margin: 0px 0px 25px 0px;		
+	padding: 17px 15px 0px 15px;
+	overflow: hidden;	
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+}
+
+#header #companyname
+{
+	width: 300px;
+	height: 190px;
+	margin: 60px 0px 0px 0px;
+	padding: 0px 0px 25px 0px;
+}
+
+#header .companyname
+{
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+    font-size: 33px;
+    font-weight: normal;
+	border: none;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: sans-serif, Arial, Geneva, Verdana;	
+}
+
+#header #companyname a
+{
+	border: none;
+}
+
+#header .slogan
+{
+	border: none;
+	font-size: 11px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: sans-serif, Arial, Geneva, Verdana;	
+}
+
+#header #search
+{
+	float: left;
+	width: 255px;
+	margin: 25px 25px 0px 0px;	
+}
+
+#header #search input
+{
+	width: 225px;
+	background-color: transparent;
+	margin: 0px 0px 25px 0px;
+	font-size: 11px;
+	text-transform: lowercase;
+}
+
+#header .search
+{
+}
+
+/**************************************************************************************/
+/*   Top Menu
+/**************************************************************************************/
+
+#header #topmenu
+{
+	float: left;
+	height: 60px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	position: relative;		
+	z-index: 20;
+	overflow: visible;
+	text-transform: uppercase;
+}
+
+#header #topmenu ul.menu
+{
+	float: left;
+	display: block;
+	margin: 0px 0px 0px 0px;;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	list-style-type: none;
+}
+
+#header #topmenu ul.menu li 
+{  
+	float: left;
+	height: 60px;
+	position: relative; 
+	list-style: none; 
+	padding: 0px; 
+	margin: 0px;
+	background: none;
+}
+
+#header #topmenu ul.menu  li a 
+{
+	height: 35px; 
+	margin: 5px 0px 5px 0px;	
+	padding: 15px 30px 0px 30px;
+	display: block; 
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;  
+	border: none;
+	border-style: none;
+	outline-style: none;
+	position: relative; 
+	z-index: 30;
+	outline-style: none;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#header #topmenu ul.menu li.current a,
+#header #topmenu ul.menu li.active a,
+#header #topmenu ul.menu li a:hover
+{
+}
+
+#header #submenu
+{
+	width: 1000px;
+	height: 23px;
+	float: right;
+	margin: 13px 0px 0px 0px;
+}
+
+#header #submenu #homelink,
+#header #submenu #contactlink,
+#header #submenu #searchlink
+{
+	float: right;
+	width: 29px;	
+}
+
+#header #submenu #homelink a
+{
+	float: right;
+	width: 29px;
+	height: 9px;
+	border: none;
+}
+
+#header #submenu #homelink a:hover
+{	
+}
+
+#header #submenu #contactlink a
+{
+	float: right;
+	width: 29px;
+	height: 9px;
+	border: none;					
+}
+
+#header #submenu #contactlink a:hover
+{
+}
+
+#header #submenu #searchlink a
+{
+	float: right;
+	width: 29px;
+	height: 9px;		
+	border: none;		
+}
+
+#header #submenu #searchlink a:hover
+{
+}
+
+#header #submenu .separator
+{
+}
+
+/**************************************************************************************/
+/*   Content
+/**************************************************************************************/
+/**************************************************************************************/
+
+#wrapper
+{
+	width: 100%;
+	overflow: hidden;	
+}
+
+#content
+{
+	width: 1002px;
+	min-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+/**************************************************************************************/
+/*   Columns Left & Right
+/**************************************************************************************/
+
+#colleft
+{
+	float: left;
+	width: 245px;
+	margin: 0px 25px 0px 0px;
+}
+
+#colright
+{
+	float: left;
+	width: 245px;
+	margin: 0px 0px 0px 25px;
+}
+
+#colleft h1, 
+#colleft h2, 
+#colleft h3,
+#colright h1, 
+#colright h2, 
+#colright h3
+{
+	width: 230px;
+	height: 46px;
+	margin: 0px 0px 0px 0px;
+	padding: 9px 0px 0px 25px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#colleft h4,
+#colleft .bannerheader,
+#colright h4,
+#colright .bannerheader
+{
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	font-size: 13px;
+}
+
+#colleft p,
+#colright p
+{
+    padding: 25px 0px 10px 0px;   
+}
+
+
+#colleft ul,
+#colright ul 
+{
+    margin: 0px 0px 0px 0px;
+    padding: 2px 0px 0px 0px;
+
+}
+
+#colleft li,
+#colright li  
+{
+	line-height: 30px;
+    margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 10px;
+    text-align: left;
+	list-style: inside;
+	background-position: left top;
+	background-repeat: repeat-x;	
+}
+
+#colleft ul ul,
+#colright ul ul
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+	
+#colleft ul ul li,
+#colright ul ul li
+{
+    margin: 0px 0px 0px -10px;
+    padding: 0px 0px 0px 30px;
+}
+
+#colleft a,
+#colright a
+{
+	outline-style: none;	
+}
+
+#colleft a:hover,
+#colright a:hover
+{
+}
+
+#colleft button, 
+#colleft .button,
+#colright button, 
+#colright .button
+{
+	float: right;
+	width: 120px;
+	height: 28px;
+	margin: 10px 0px 15px 0px;
+	padding: 0px 0px 3px 0px;
+	text-align: center;
+	font-size: 11px;
+	text-transform: uppercase;
+	border: none;	
+}
+
+#colleft button:hover, 
+#colleft input.button:hover,
+#colright button:hover, 
+#colright input.button:hover
+{
+	cursor: pointer;
+}
+
+#colleft input,
+#colright input
+{
+	width: 235px;
+	padding: 4px;
+}
+
+#colleft input[type="checkbox"],
+#colleft input[type="radio"],
+#colright input[type="checkbox"],
+#colright input[type="radio"]
+{
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 0px 5px 0px 0px;	
+	border: none;
+	background-color: transparent;
+}
+
+#colleft img
+{
+	float: left;
+	margin: 0px 15px 10px 0px;
+	padding: 3px;
+}
+
+#colright img
+{
+	float: right;
+	margin: 0px 0px 10px 15px;
+	padding: 3px;
+}
+
+#colleft .testimonials img,
+#colright .testimonials img
+{
+	float: left;
+	padding: 0px;
+	margin: 0px 15px 6px 0px;	
+	border: none;	
+}
+
+#colleft #search,
+#colright #search
+{
+}
+
+#colleft #search input,
+#colright #search input
+{
+	width: 200px;
+	padding: 4px 3px 4px 30px;
+}
+
+#colleft .recentpost,
+#colright .recentpost
+{
+    padding: 10px 0px 20px 0px;   
+}
+
+#colleft .readmore,
+#colright .readmore
+{
+	height: 15px;
+    margin: 15px 0px 0px 0px;
+	padding: 4px 25px 4px 0px;
+	text-align: right;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+/**************************************************************************************/
+/*   Rows 			   																  */
+
+#colleft .row2,
+#colleft .row3,
+#colleft .row4,
+#colleft .row5,
+#colright .row2,
+#colright .row3,
+#colright .row4,
+#colright .row5
+{
+	clear: both;
+    margin: 0px 0px 20px 0px;	
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+#colleft .row-separator,
+#colright .row-separator
+{
+	clear: both;
+	height: 2px;
+	margin: 15px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-image: url(../images/itemseparator.png);
+	background-repeat: repeat-x;
+}
+
+/**************************************************************************************/
+/*   Column Main 
+/**************************************************************************************/
+
+#colmain
+{
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: justify;
+	overflow: hidden;	
+}
+
+#colmain #component
+{
+	float:left;
+	margin: 0px 0px 25px 0px;
+	padding: 25px;
+	border: 1px;
+	border-style: solid;
+	overflow: hidden;	
+}
+
+#colmain h1, 
+#colmain h2, 
+#colmain h3
+{
+	font-size: 20px;	
+	font-weight: normal;
+    margin: 10px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
+	background-repeat: no-repeat;
+	background-position: center left;
+	text-transform: uppercase;	
+}
+
+#colmain h4, 
+#colmain h5
+{
+	font-size: 13px;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;		
+	text-transform: uppercase;
+}
+
+#colmain .item h1,
+#colmain .item h2,
+#colmain .item h3
+{
+	width: 100%;
+	margin: 0px 0px 25px 0px;
+	padding: 10px 0px 0px 0px;
+	font-size: 20px;	
+	font-weight: normal;
+	background-image: none;
+}
+
+#colmain .item h1 a, 
+#colmain .item h2 a, 
+#colmain .item h3 a
+{
+	display: block;
+	width: 100%;
+    margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#colmain p
+{
+	font-weight: normal;
+	text-align: justify;
+	padding: 0px 0px 25px 0px;
+}
+
+#colmain ul 
+{
+	padding: 0px 0px 20px 0px;
+	text-align: left;
+}
+
+#colmain li  
+{
+	padding: 3px;
+}
+
+
+#colmain ul ul
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+	
+#colmain ul ul li
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+#colmain input
+{
+	float: left;
+	width: 220px;
+	padding: 4px 4px 4px 4px;
+	font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;		
+}
+
+#colmain textarea
+{
+	margin: 5px 0px 0px 0px;
+	padding: 4px 4px 4px 4px;	
+	font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;	
+}
+
+#colmain input[type="checkbox"],
+#colmain input[type="radio"]
+{
+	float: left;
+	width: 16px;
+	height: 16px;
+	border: none;
+	background-image: none;
+}
+
+#colmain input[type="radio"]
+{
+	margin-right: 10px;
+}
+
+#colmain label
+{
+	float: left;
+	width: 180px;
+}
+
+#colmain #article img
+{
+	margin: 0px 10px 10px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#colmain .imgright
+{
+	float: right;
+	margin: 0px 0px 10px 20px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#colmain .imgleft
+{
+	float: left;
+	margin: 0px 20px 10px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#colmain .readmore
+{
+	margin: 0px 0px 0px 0px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#colmain .banner
+{
+	margin: 20px 0px 10px 0px;
+}
+
+#colmain .readmore button,
+#colmain .readmore .button
+{
+	margin: 0px 0px 10px 0px;
+	background-image: none;
+	font-weight: normal;
+}
+
+#colmain .readmore button:hover, 
+#colmain .readmore .button:hover
+{
+	margin: 0px 0px 10px 0px;
+	background-image: none;
+	font-weight: normal;
+}
+
+#colmain button, 
+#colmain .button
+{
+	clear: both;
+	float: right;
+	margin: 25px 0px 0px 0px;
+	padding: 0px 0px 2px 0px;
+    width: 200px;
+    height: 28px;
+    font-weight: normal;
+	text-align: center;
+}
+
+#colmain button:hover, 
+#colmain .button:hover
+{
+	cursor: pointer;
+}
+
+
+#colmain #adsense
+{
+	clear: both;
+	width: 100%;
+	height: 60px;
+	padding: 25px 0px 25px 0px;
+	margin: 0px 0px 25px 0px;	
+	border-bottom: 1px solid;
+    border-top: 1px solid;	
+	text-align: center;
+}
+
+
+/**************************************************************************************/
+/*   Footer
+/**************************************************************************************/
+/**************************************************************************************/
+
+#footer
+{
+	width: 100%;
+	min-height: 150px;
+	margin: 25px 0px 0px 0px;	
+	overflow: hidden;
+}
+
+#footercontent
+{	
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#footer .bg
+{
+	min-height: 150px;	
+}
+
+#footer h1, 
+#footer h2, 
+#footer h3
+{
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;		
+}
+
+#footer p
+{
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;	
+}
+
+#footer a
+{
+	text-decoration: none;
+	outline-style: none;	
+}
+
+#footer a:hover
+{
+	border: none;
+}
+
+#footer ul 
+{
+	list-style: none;
+	text-align: left;
+}
+
+#footer li
+{
+	display: inline;
+    padding-right: 15px;
+}
+
+#footer .menu li a
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+#footer #search
+{
+}
+
+#footer #search input
+{
+}
+
+#footer #getintouch
+{
+}
+
+#footer .item-separator
+{
+    clear: both;
+    background-image: url(../images/itemseparator.png);
+    background-repeat: repeat-x;
+    height: 2px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/**************************************************************************************/
+/*   Row 2 			   																  */
+
+#footer .row2
+{
+	clear: both;
+	padding: 25px 0px 25px 0px;
+	overflow: hidden;	
+}
+
+#footer .row2 #trade
+{
+	float: left;
+	height: 23px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 25px;
+	text-transform: uppercase;
+}
+
+#footer .row2 #ascopy
+{
+	float: left;
+	height: 23px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+	text-transform: uppercase;	
+}
+
+#footer .row2 .row2col1
+{
+	float: left;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#footer .row2 .row2col2
+{
+	float: right;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: right;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/*   General Element IDs and classes
+/**************************************************************************************/
+/**************************************************************************************/
+
+#general
+{
+}
+
+#companylogo,
+#companylogo a
+{
+    border: none;
+}
+
+#mainbanner
+{
+}
+
+.alignleft
+{
+	text-align: left;
+}
+
+.alignright
+{
+	text-align: right;
+}
+
+.center
+{
+    padding: 10px;
+    text-align: center;    
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.spacer
+{
+	width: 1px;
+	height: 40px;
+}
+
+.separator
+{
+	width: 1px;
+	height: 20px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separator_5
+{
+	clear: both;
+	width: 5px;
+	height: 5px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separator_7
+{
+	clear: both;	
+	width: 7px;
+	height: 7px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separator_8
+{
+	clear: both;	
+	width: 8px;
+	height: 8px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separator_10
+{
+	clear: both;	
+	width: 10px;
+	height: 10px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separator_15
+{
+	clear: both;	
+	width: 15px;
+	height: 15px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.sepleft_15
+{
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separator_20
+{
+	clear: both;	
+	width: 20px;
+	height: 20px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separator_25
+{
+	clear: both;	
+	width: 25px;
+	height: 25px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.sepleft_25
+{
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separator_30
+{
+	clear: both;	
+	width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.separatordotted_hor
+{
+	margin: 20px 0px 20px 0px;
+	height: 1px;
+	background-image: url(../images/sep_hor.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.separatordotted_ver
+{
+	margin: 0px 0px 0px 0px;
+	width: 1px;
+	background-image: url(../images/sep_ver.png);
+	background-repeat: repeat-y;
+	background-position: bottom;
+}
+
+.border 
+{
+}
+
+.label
+{
+    font-weight: bold;
+}
+
+.asterisk
+{
+	float: left;
+	width: 10px;
+	padding: 0px 0px 0px 3px;
+}
